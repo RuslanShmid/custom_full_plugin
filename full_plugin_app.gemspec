@@ -9,14 +9,12 @@ Gem::Specification.new do |s|
   s.version     = FullPluginApp::VERSION
   s.authors     = ["RuslanShmid"]
   s.email       = ["ruslan.shmid@lasoft.org"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of FullPluginApp."
-  s.description = "TODO: Description of FullPluginApp."
+  s.homepage    = "https://github.com/RuslanShmid/custom_full_plugin"
+  s.summary     = "FullPluginApp."
+  s.description = "Description of FullPluginApp."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 5.1.2"
-
-  s.add_development_dependency "sqlite3"
+  s.add_dependency "rails", "~> 5"
 end
